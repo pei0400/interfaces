@@ -1,4 +1,5 @@
 message
 {
+    int32 message_id index=1;
     
 }
