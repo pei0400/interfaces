@@ -1,8 +1,6 @@
-message
-{
-    int32 message_id index=1;
-
-    int32 message 
-    
-    
+message ReserveMethodIA {
+    required int32 a_nMethodId = 1;
+    required int32 a_nMethodSerialNumber =2;
+    required int32 a_nSampleSerialNumber =3;
+    optional double a_dSampleVolume = 10;
 }
