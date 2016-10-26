@@ -1,3 +1,5 @@
+// messages sent from MM to DML
+
 message ReserveMethodIA {
     required int32 a_nMethodId = 1;
     required int32 a_nMethodSerialNumber =2;
