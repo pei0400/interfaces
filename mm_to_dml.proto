@@ -1,8 +1,9 @@
 // messages sent from MM to DML
 
 message ReserveMethodIA {
-    required int32 a_nMethodId = 1;
-    required int32 a_nMethodSerialNumber =2;
-    required int32 a_nSampleSerialNumber =3;
-    optional double a_dSampleVolume = 10;
+    repeated int32 MessageID = 1;
+    required int32 MethodId = 2;
+    required int32 MethodSerialNumber = 3;
+    required int32 SampleSerialNumber = 4;
+    optional double SampleVolume = 10;
 }

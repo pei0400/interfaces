@@ -1,0 +1,5 @@
+// message sent from dml to mm
+message IMTReading
+{
+    required int32 
+}
