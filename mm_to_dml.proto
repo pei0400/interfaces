@@ -7,3 +7,6 @@ message ReserveMethodIA {
     required int32 SampleSerialNumber = 4;
     optional double SampleVolume = 10;
 }
+message TestResult{
+    
+}
