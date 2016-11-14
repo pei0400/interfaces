@@ -8,5 +8,7 @@ message ReserveMethodIA {
     optional double SampleVolume = 10;
 }
 message TestResult{
+	required int32 MessageID =1;
+	
     
 }
