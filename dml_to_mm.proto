@@ -3,6 +3,6 @@ message IMTReading
 {
     required int32 commandID;
     required string command;
-    required srring layload;
-    
+    required string layload;
+    required string result;
 }
