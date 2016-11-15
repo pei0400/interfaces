@@ -9,6 +9,6 @@ message ReserveMethodIA {
 }
 message TestResult{
 	required int32 MessageID =1;
-	
+	required int32 
     
 }
