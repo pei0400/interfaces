@@ -1,5 +1,5 @@
 // message sent from dml to mm
 message IMTReading
 {
-    required int32 
+    required int32 commandID
 }
