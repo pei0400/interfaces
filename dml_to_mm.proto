@@ -6,3 +6,9 @@ message IMTReading
     required string layload;
     required string result;
 }
+
+message IMTResult
+{
+	required int32 commandID =1;
+	optional bytes payload = 2;
+}
