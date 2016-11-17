@@ -12,3 +12,4 @@ message IMTResult
 	required int32 commandID =1;
 	optional bytes payload = 2;
 }
+
